@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>PortFolio</title>
+</head>
+<body>
+        <nav class="navbar">
+            <div class="logo">
+                <h2>PortFolio</h2>
+            </div>
+            <div class="about">
+                <a href="./static/about.html">About Me</a>
+            </div>
+        </nav>
+        <main>
+            <section class="content">
+                <div>
+                    <img id="javascript" src="./static/javascript.png" alt="">
+                    <div class="modal" id="javascript">
+                        <h3>Javascript   <i class="fab fa-js"></i></h3>
+                        <div class="info">
+                            Javascript script is used for making responsive frontend website. I also learned it for basic frontend but its also very good for back-end too. So, I have worked on Reactjs and now learning backend frameworks like Express and node.
+                        </div>
+                        <div class="progress" style="color: #f0135c;">Have learned the bare-minimum to get started with recat and node</div>
+                    </div>
+                </div>
+                <div>
+                    <img id="express" src="./static/express.png" alt=""> 
+                    <div class="modal" id="javascript">
+                        <h3>Express   <i class="fab fa-js"></i></h3>
+                        <div class="info">
+                            Express Js combined with node js is a framework which handles backend i.e server-side request. I'm learning it to create API. It can also be used for server-side rendering but according to me the best way to use it is - Express + Node handle for API and ReactJs or Vanilla js (sometime) for frontend.
+                        </div>
+                        <div class="progress" style="color: rgb(8, 175, 97);">Still learning the basics</div>
+                    </div>
+                </div>
+                <div>
+                    <img id="python" src="./static/python.png" alt="">
+                    <div class="modal" id="javascript">
+                        <h3>Python   <i class="fab fa-python"></i></h3>
+                        <div class="info">
+                            Python which is the one of the most popular and easy to learn language and is the first choice most of time choice for most beginers. Just like others I mentioned, It was my first proggramming language and language that I have explored most.
+                        </div>
+                        <div class="progress" style="color: #f0135c">Learned enough to explore most of the frameworks. Right now I have kept it at hold</div>
+                    </div>
+                </div>
+                <div>
+                    <img id="node" src="./static/nodejs.png" alt="">
+                    <div class="modal" id="javascript">
+                        <h3>NodeJs   <i class="fab fa-node-js"></i></h3>
+                        <div class="info">
+                            Node js is a powerful tool for backend of website.I am still in the the process of learning it and its quite fun to do some backend stuff with javascript.
+                        </div>
+                        <div class="progress" style="color: rgb(8, 175, 97);">Still learning the basics</div>
+                    </div>
+                </div>
+                <div>
+                    <img id="react" src="./static/react.png" alt="">
+                    <div class="modal" id="javascript">
+                        <h3>ReactJs   <i class="fab fa-react"></i></h3>
+                        <div class="info">
+                            It was the first frontend framework that I worked on. It makes frontend preety easy 'cause of its JSX. You have no need to seperate html from javascript which gives more freedom to work.
+                        </div>
+                        <div class="progress" style="color: rgb(8, 175, 97);">Still learning the basics. Can make some basics apps. Learning some not very common Hooks</div>
+                    </div>
+                </div>
+                <div>
+                    <img id="django" src="./static/django.png" alt="">
+                    <div class="modal" id="javascript">
+                        <h3>Django  <i class="fab fa-python"></i></h3>
+                        <div class="info">
+                            The first server-side rendering framework that I worked on.This was the framework made me realize the use of javascript as it use jinja templates which were not very flexible when it comes to frontend uses. It also reload the page evert time you do something.
+                        </div>
+                        <div class="progress" style="color: #f0135c">Used it for quite a while before swithing to Javascript.</div>
+                    </div>
+                </div>
+                
+                <section class="detail" onmouseenter="showHidden()" onmouseleave="hideHidden()">
+                    <div class="show" >
+                        <img src="./static/hover.png" alt="">
+                    </div>
+                    <div class="on-flip">
+                        <div>
+                            <div class="top">
+                                <h3>Information <i class="fas fa-info"></i></h3>
+                                <p>Click the above Images of languages/framework to know more about them.</p>
+                            </div>
+                            <div class="middle">
+                                <h3>Caution  <i class="fas fa-exclamation-triangle"></i></h3>
+                                <p>This website is not mobile responsive</p>
+                            </div>
+                            <div class="bottom">
+                                <h3>About Me</h3>
+                                <p>Click below to go to About Me Page.    <i class="fas fa-arrow-down" style="color: #f0135c;"></i></p>
+                                <a href="./static/about.html">About Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+            </section>
+        </main>
+    <script src="./javascript/index.js"></script>
+</body>
+</html>

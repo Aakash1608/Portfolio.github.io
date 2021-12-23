@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&family=Sora:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sora', sans-serif;
+}
+body{
+    line-height: 1.3;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sora', sans-serif;
+    background-color: rgba(245, 245, 245, 0.795);
+    color: black;
+}
+.navbar{
+    background-color: #f0135c;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.logo{
+    margin: 4px 16px 4px 16px;
+    margin-left: 32px;
+}
+.logo h2, h1, h3{
+    font-weight: 500;
+    font-size: 28px;
+}
+.home{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 20px;
+    margin-right: 64px;
+    padding-bottom: 5px;
+}
+.home a{
+    font-size: 18px;
+    font-weight: 250;
+    text-decoration: none;
+    color: #f1f2f3;
+}
+.home a:hover{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2.6px;
+    border-color: #e4e4e4;
+    border-radius: 3px;
+    border-style: solid;
+}
+main{
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main h2{
+    font-size: 28px;
+    color: #f0135c;
+    font-weight: 300;
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+.intro{
+    width: 73%;
+    /* height: 500px; */
+    background-color: white;
+    margin-left: 16px;
+    box-shadow: 2px 2px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.btn{
+    display: flex;
+}
+.btn button{
+    width: 50%;
+    border: none;
+    background-color: #fc095ac2;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: 250;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0.3px;
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+}
+.right-btn:focus{
+    background-color: #f0135c;
+}
+.left-btn:focus{
+    background-color: #f0135c;
+}
+.about{
+    margin: 8px;
+    padding: 12px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.top p{
+    margin-right: 8px;
+}
+.top img{
+    width: 33%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.text h3{
+    font-size: 22px;
+    font-weight: 300;
+    color: #f0135c;
+    margin-bottom: 12px;
+}
+.text h4{
+    font-size: 19px;
+    font-weight: 250;
+    color: #f0135c;
+}
+.text p{
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+.bottom{
+    margin-top: 32px;
+    display: flex;
+}
+.bottom img{
+    height: 120px;
+    margin: 2px;
+}
+.hobbies{
+    display: none;
+    padding: 0;
+}
+.hobby-btn{
+    width: 100%;
+    padding: 0;
+    display: flex;
+}
+.hobby-btn button{
+    width: 33.33%;
+    height: 38px;
+    background-color: white;
+    border: none;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0.5px;
+    border-right: 0.5px;
+    border-color: black;
+    border-style: solid;
+    font-size: 15px;
+    letter-spacing: 1.2;
+    cursor: pointer;
+}
+.hobby-btn button:focus{
+    background-color: rgba(187, 187, 187, 0.89);
+    color: white;
+}
+.hobby-info{
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    padding: 0;
+}
+
+.hobby-info img{
+    width: 100%;
+    height: 420px;
+}

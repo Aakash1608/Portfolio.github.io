@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&family=Sora:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sora', sans-serif;
+}
+body{
+    line-height: 1.3;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sora', sans-serif;
+    background-color: white;
+    color: black;
+}
+.navbar{
+    background-color: #f0135c;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.logo{
+    margin: 4px 16px 4px 16px;
+    margin-left: 32px;
+}
+.logo h2, h1, h3{
+    font-weight: 500;
+    font-size: 28px;
+}
+.about{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 20px;
+    margin-right: 64px;
+    padding-bottom: 5px;
+}
+.about a{
+    font-size: 18px;
+    font-weight: 250;
+    text-decoration: none;
+    color: #f1f2f3;
+}
+.about a:hover{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2.6px;
+    border-color: #e4e4e4;
+    border-radius: 3px;
+    border-style: solid;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro{
+    margin: 12px;
+}
+.intro p{
+    font-size: 18px;
+    font-weight: 100;
+}
+.content{
+    width: 85%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+}
+.content img{
+    width: 98%;
+    height: 300px;
+    margin: 4px;
+    background-color: rgba(240, 240, 240, 0.842);
+}
+.content img:hover{
+    width: 98%;
+    height: 300px;
+    box-shadow: 4px 4px 32px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.modal{
+    display: none;
+    width: 98%;
+    height: 300px;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 32px 0 rgba(0,0,0, 0.15);
+    padding: 16px;
+}
+.modal h3{
+    font-size: 26px;
+    font-weight: 300;
+    color: #f0135c;
+    margin-bottom: 32px;
+}
+.progress{
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.detail{
+    height: 300px;
+    margin-bottom: 32px;
+    background-color: rgba(255, 255, 255, 0.842);
+}
+.detail:hover{
+    box-shadow: 4px 4px 32px 0 rgba(0,0,0, 0.15);
+}
+.show{
+    width: 100%;
+}
+.on-flip{
+    display: none;
+    
+}
+.on-flip div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 8px;
+}
+.on-flip h3{
+    font-size: 24px;
+    font-weight: 300;
+    color: #f0135c;
+}
+.on-flip h4{
+    font-size: 20px;
+}
+.top{
+    margin-bottom: 4px;
+    padding: 8px;
+}
+
+.middle{
+    padding: 8px;
+}
+.bottom{
+    padding: 8px;
+}
+
+.bottom p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.bottom a{
+    text-decoration: none;
+    color: #f0135c;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 4px;
+}
+
